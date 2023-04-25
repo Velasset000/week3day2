@@ -1,0 +1,52 @@
+a, h1, h2, h3, div, body, html, header, div, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Roboto', sans-serif;
+  }
+p {
+    padding: 3px 10px 3px 10px;
+}
+#text {
+    height: 500px;
+    width: fit-content;
+    margin: 50px auto 200px auto;
+}
+.info {
+    outline: 1px solid darkgoldenrod;
+    border-radius: 2px;
+    font-size: 15px;
+    background-color: white;
+    margin: 10px;
+    width: 250px;
+    height: 425px;
+    float: left;
+}
+div h1 {
+    background-color: white;
+    margin: 10px 0 10px 10px
+}
+#forReal {
+    float: left;
+    background-color: darkgoldenrod;
+}
+ul li {
+    display: inline;
+    float: right;
+    margin-right: 35px;
+}
+header {
+    background-color: darkgoldenrod;
+}
+.nav {
+    height: 20px;
+    color: white;
+    padding: 15px;
+}
+#moreInfo {
+    text-align: center;
+    width: 175px;
+    margin: 0 auto 0 auto;
+    background-color: darkgoldenrod;
+}
