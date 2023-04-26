@@ -10,18 +10,21 @@ p {
 }
 #text {
     height: 500px;
-    width: fit-content;
-    margin: 50px auto 200px auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 1100px;
+    margin: 0 auto;
 }
 .info {
     outline: 1px solid darkgoldenrod;
     border-radius: 2px;
     font-size: 15px;
     background-color: white;
-    margin: 10px;
     width: 250px;
     height: 425px;
-    float: left;
+
 }
 div h1 {
     background-color: white;
