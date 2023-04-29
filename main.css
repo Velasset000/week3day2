@@ -11,11 +11,10 @@ p {
 #text {
     height: 500px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
-    align-items: flex-end;
-    width: 1100px;
-    margin: 0 auto;
+    margin: 80px 250px 0;
 }
 .info {
     outline: 1px solid darkgoldenrod;
@@ -24,7 +23,7 @@ p {
     background-color: white;
     width: 250px;
     height: 425px;
-
+    min-width: 250px;
 }
 div h1 {
     background-color: white;
